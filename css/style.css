@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+}
+
+body {
+  /* 2 */
+  background-color: #f2f2f2;
+  font-family: "Open Sans", "Lucida Sans", sans-serif;
+  font-size: 16px;
+  color: #012E40;
+  background-image: url("../assets/images/foret.jpg");
+}
+
+.container {
+  /* 3 */
+  width: 950px;
+  margin-top: 5px;
+  background-color: #F2E3D5;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  /* 4 */
+  line-height: 1.4em;
+  padding: 10px;
+}
+
+header,
+nav,
+footer {
+  /* 5 */
+  background-color:#A68F97;
+  color: #004F4D;
+}
+
+nav ul {
+  /* 6 */
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  display: flex;
+}
+
+nav ul li {
+  /* 7 */
+  display: inline;
+  margin-right: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+nav ul li a {
+    color: #000000;
+
+}
+
+nav ul li :hover,
+nav ul li :active,
+nav ul li :link {
+    /* 8 */
+    color: #004f4c44;
+}
+
+a {
+  /* 9 */
+  text-decoration: none;
+  color: #3CA6A6;
+}
+
+h1,
+h2,
+h3 {
+    /* 10 */
+    margin: 10px;
+    text-transform: uppercase;
+    color: #3CA6A6;
+}
+
+.img-centre {
+  /* 11 */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+audio,
+video {
+  /* 12 */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  /* 13 */
+  width: 800px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px dashed black;
+  background-color: rgba(255, 255, 255, 0.234);
+}
+
+table th,
+tfoot td,
+tfoot th {
+  text-transform: uppercase;
+}
+
+dt {
+  font-weight: bold;
+}
+
+footer {
+  font-size: 0.8em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+fieldset {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.207);
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+legend {
+    font-style: italic;
+    background-color: #f2f2f2;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 15%;
+}
+
+input[type=submit] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #22699f;
+}
